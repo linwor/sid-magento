@@ -18,7 +18,7 @@ use Psr\Log\LoggerInterface;
 
 class Config extends AbstractConfig
 {
-    const METHOD_CODE = 'sid';
+    public const METHOD_CODE = 'sid';
     protected $directoryHelper;
     protected $_storeManager;
     protected $_supportedBuyerCountryCodes = ['ZA'];
