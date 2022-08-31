@@ -2,7 +2,7 @@
   "name": "linwor/sid-magento-gateway",
   "description": "SiD Payment Gateway for Magento 2",
   "type": "magento2-module",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "GPL-3.0",
   "authors": [
     {
@@ -11,11 +11,13 @@
     }
   ],
   "require": {
-    "php": "^8.1"
+    "php": "^8.1",
+    "ext-curl": "*",
+    "ext-http": "*"
   },
   "autoload": {
     "files": [
-      "linwor/sid-magento-gateway/registration.php"
+      "registration.php"
     ],
     "psr-4": {
       "SID\\SecureEFT\\": "linwor/sid-magento-gateway"
