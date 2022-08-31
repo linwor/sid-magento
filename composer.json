@@ -19,7 +19,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "SID\\SecureEFT\\": "linwor/sid-magento-gateway"
+      "SID\\SecureEFT\\": ""
     }
   }
 }
