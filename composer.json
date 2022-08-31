@@ -2,7 +2,7 @@
   "name": "linwor/sid-magento-gateway",
   "description": "SiD Payment Gateway for Magento 2",
   "type": "magento2-module",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "GPL-3.0",
   "authors": [
     {
